@@ -1,10 +1,38 @@
-{
-  "name": "Promises",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+[
+  {
+    "title": "The Shawshank Redemption",
+    "director": "Frank Darabont",
+    "genre": "Drama",
+    "year": 1994
   },
-  "private": true
-}
+  {
+    "title": "The Godfather",
+    "director": "Francis Ford Coppola",
+    "genre": "Crime",
+    "year": 1972
+  },
+  {
+    "title": "The Dark Knight",
+    "director": "Christopher Nolan",
+    "genre": "Action",
+    "year": 2008
+  },
+  {
+    "title": "Pulp Fiction",
+    "director": "Quentin Tarantino",
+    "genre": "Crime",
+    "year": 1994
+  },
+  {
+    "title": "Schindler's List",
+    "director": "Steven Spielberg",
+    "genre": "Drama",
+    "year": 1993
+  },
+  {
+    "title": "Inception",
+    "director": "Christopher Nolan",
+    "genre": "Sci-Fi",
+    "year": 2010
+  }
+]

@@ -1,10 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐱 Kitty Movie Library</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-$END$
+<div class="container">
+    <header class="header">
+        <div class="cat-ears">
+            <div class="ear left"></div>
+            <div class="ear right"></div>
+        </div>
+        <h1 class="title">🎬 KITTY MOVIE LIBRARY 🐱</h1>
+        <p class="subtitle">Your purrfect collection of favorite movies</p>
+        <div class="floating-cats">
+            <span class="cat-emoji">🐱</span>
+            <span class="cat-emoji">😸</span>
+            <span class="cat-emoji">😺</span>
+        </div>
+    </header>
+
+    <div class="controls">
+        <button id="add-btn" class="add-btn">
+            <span class="btn-icon">🐾</span>
+            Add Movie
+        </button>
+        <select id="genre-filter" class="genre-filter">
+            <option value="">All Genres 🎭</option>
+        </select>
+    </div>
+
+    <div id="add-form" class="form-overlay">
+        <form class="form">
+            <div class="form-header">
+                <span class="form-cat">😻</span>
+                <h2>Add New Movie</h2>
+            </div>
+            <input type="text" id="title" placeholder="🎬 Movie Title" required>
+            <input type="text" id="director" placeholder="🎭 Director" required>
+            <input type="text" id="genre" placeholder="🎪 Genre" required>
+            <input type="number" id="year" placeholder="📅 Release Year" min="1900" max="2024" required>
+            <div class="form-buttons">
+                <button type="submit" class="submit-btn">
+                    <span class="btn-icon">✨</span>
+                    Add Movie
+                </button>
+                <button type="button" id="cancel-btn" class="cancel-btn">
+                    <span class="btn-icon">🙈</span>
+                    Cancel
+                </button>
+            </div>
+            <div class="form-cats">
+                <span class="form-cat-small">🐱</span>
+                <span class="form-cat-small">🐱</span>
+                <span class="form-cat-small">🐱</span>
+            </div>
+        </form>
+    </div>
+
+    <div id="movies-grid" class="movies-grid"></div>
+
+    <div class="footer-cats">
+        <span class="footer-cat">😸</span>
+        <span class="footer-cat">🐾</span>
+        <span class="footer-cat">😺</span>
+        <span class="footer-cat">🐾</span>
+        <span class="footer-cat">😻</span>
+    </div>
+</div>
+
+<script src="app.js"></script>
 </body>
 </html>
